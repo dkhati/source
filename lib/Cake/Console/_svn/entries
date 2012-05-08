@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/lib/Cake/Console"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="ConsoleInputSubcommand.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="f1a6c147d9f40b01272c98ac3e7637b7"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="cake.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="9ce1a61f043d627f5e0e08d9937652e9"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="Shell.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="ea67b6393a232d46765b0323608983af"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   name="Templates"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="ConsoleOptionParser.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="7f7b68392464f18883798c2e0a524c9a"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="ConsoleErrorHandler.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="95b8e8d45bd1acb1f33ffdc729216224"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="ConsoleInputOption.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="4ed59a79979d009b4e8a8f96314b3efe"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="HelpFormatter.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="f76ce2efa8686eb8fb38c7e6867f5cb7"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="cake"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="d4c5b474546a8978a49ba91d780fe5b6"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="TaskCollection.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="18f82cf24f1953474a87d04740668d58"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="ShellDispatcher.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="204aa8645b73636e9975c6e4de172cd1"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="ConsoleInput.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="5fc70a96acc8a6d87f3927c92ff84350"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="cake.bat"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="1a9df47ca6090c788d6c78b14dc22b32"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="ConsoleOutput.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="b3dc8b0db3fae21cc979a2736ac75388"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="ConsoleInputArgument.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="cc90eeeb98bc61dd91d7f75a3f5074a2"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   name="Command"
+   kind="dir"/>
+</wc-entries>

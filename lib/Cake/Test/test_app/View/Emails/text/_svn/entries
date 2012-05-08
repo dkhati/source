@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/lib/Cake/Test/test_app/View/Emails/text"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="custom.ctp"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="389d9cf43c9cacfc0a81cd0a2f2317e9"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="default.ctp"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="c086b0cfe2703c55dd16f59e7d83dcee"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="japanese.ctp"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="6c3321059ef436dff8e2a0cf201ef002"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="wide.ctp"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="d481763d7d73fd622bfc6eac664a8cb2"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="custom_helper.ctp"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="b3f0bc970bd613870451a509ee348462"
+   last-author="Dineshk"
+   kind="file"/>
+</wc-entries>

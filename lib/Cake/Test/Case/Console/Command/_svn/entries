@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/lib/Cake/Test/Case/Console/Command"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="BakeShellTest.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="cf628d225b4e1bec9fc5a750afa8d39a"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   name="Task"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="ApiShellTest.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="ef615654d84fd85367b71821ade1d7f4"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="CommandListShellTest.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="ba1305ef80d5fab4dd73743050a7e495"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="AclShellTest.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="85d562372b077c27ac92e1f5abdefcf6"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="TestShellTest.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="913019d0fb303f05c53f96c25ddef34e"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="SchemaShellTest.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="8e05a9ad121ba2ff70eba01a44490806"
+   last-author="Dineshk"
+   kind="file"/>
+</wc-entries>

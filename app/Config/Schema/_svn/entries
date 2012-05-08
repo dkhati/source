@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/app/Config/Schema"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="db_acl.sql"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="5bbb2f74262e950a4c8a0435bf4fcb0e"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="sessions.sql"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="f29c8a573c7b9e3718a36fe667f825bf"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="i18n.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="a95856c3cdae55b884e3cdc2ff4d265a"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="db_acl.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="4d1b222880d7209f34dd408a70c05817"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="sessions.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="0a47c12915cf49c07542f2b3f397054b"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="i18n.sql"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="d726b587ff9d73c75ebd1475e32cbbef"
+   last-author="Dineshk"
+   kind="file"/>
+</wc-entries>

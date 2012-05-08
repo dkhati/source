@@ -1,0 +1,136 @@
+<?php
+/**
+ * Static content controller.
+ *
+ * This file will render views from views/pages/
+ *
+ * PHP 5
+ *
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @package       app.Controller
+ * @since         CakePHP(tm) v 0.2.9
+ * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
+
+App::uses('AppController', 'Controller');
+
+/**
+ * Static content controller
+ *
+ * Override this controller by placing a copy in controllers directory of an application
+ *
+ * @package       app.Controller
+ * @link http://book.cakephp.org/2.0/en/controllers/pages-controller.html
+ */
+class UsersController extends AppController {
+
+/**
+ * Controller name
+ *
+ * @var string
+ */
+	public $name = 'Users';
+
+/**
+ * Default helper
+ *
+ * @var array
+ */
+	public $helpers = array('Form','Html', 'Session');
+	
+	public $uses = array('User');
+
+/**
+ * Displays a view
+ *
+ * @param mixed What page to display
+ * @return void
+ */
+	public function index(){
+
+	  $this->set('title_for_layout','Sign Up');
+
+		if(!empty($this->request->data)){		
+				
+				$full_name=mysql_real_escape_string($this->request->data['User']['full_name']);
+				$password=md5(mysql_real_escape_string($this->request->data['User']['password']));
+				$email_address=mysql_real_escape_string($this->request->data['User']['email_address']);
+				$username=mysql_real_escape_string($this->request->data['User']['username']);
+
+				$activationCode=md5(rand(1,1000000));
+				
+				$UserData=array('full_name'=>$full_name,'password'=>$password,'email_address'=>$email_address,'username'=>$username,'activationCode'=>$activationCode);
+				
+				$this->User->save($UserData);
+				
+				$insertId=$this->User->getInsertID();
+				
+				if(!empty($insertId)){
+					$fromEmail= Configure::read('AdminEmail');
+
+					$headers  = 'MIME-Version: 1.0' . "\r\n";
+					$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+					$headers .= "From: $fromEmail" . "\r\n" ."Reply-To: $fromEmail" . "\r\n" .'X-Mailer: PHP/' . phpversion();
+					
+					$siteUrl='http://'.$_SERVER['HTTP_HOST'];
+					
+					$activationLink=$siteUrl.$this->base."/users/activation/$insertId/$activationCode";
+					
+					$to=$this->request->data['User']['email_address'];
+
+					$this->Session->setFlash('Thank you for registering at Consultr. Please check your email to activate your account.');
+					
+					$message='Thank you for registering at Consultr. Your account is created and must be activated before you can use it.<br> To activate the account click on the following link or copy-paste it in your browser:<br><a href="'.$activationLink.'">'.$activationLink.'</a><br><br> After activation you may login to '.$siteUrl.$this->base.' using the following username and password:<br> Username: '.$to.'<br> Password: '.$this->request->data['User']['password'];
+					
+					mail($to,'Consultr: Account activation',$message,$headers);
+					
+					unset($this->request->data['User']['full_name']);
+					unset($this->request->data['User']['email_address']);
+					unset($this->request->data['User']['password']);
+					unset($this->request->data['User']['username']);
+					
+				}
+
+		}
+	}
+
+
+	function activation($inserId=NULL,$activationCode=NULL){
+
+			$this->set('title_for_layout','Account activation');
+		
+			$this->User->query("UPDATE users SET status=1,activationCode='' WHERE id=$inserId AND activationCode='$activationCode' AND status=0");
+		
+			$updated=$this->User->getAffectedRows();
+
+			if($updated){
+
+				$data= $this->User->find('first',array('fields'=>'id,acc_type,full_name,	username,email_address,picture','conditions' => array('id' => $inserId,'status'=>1)));
+
+				$this->Session->write('CurUser',$data['User']);
+
+				$this->Session->setFlash('Your account has been activated successfully.');
+
+				$this->redirect('/settings');				 
+			}
+			else{
+				$this->Session->setFlash('There is no such account in our database or the account has already been activated.');
+				$this->render('index');
+			}
+
+	}
+
+	function logout()
+    {
+   	    $this->Session->delete('CurUser');
+        $this->Session->setFlash('You\'ve successfully logged out.');
+        $this->redirect('/');
+    }
+}

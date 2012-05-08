@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/lib/Cake/Network"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   name="Http"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="CakeRequest.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="bb22a9596f815eca5660bcf609eedc8e"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="CakeSocket.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="f89878345534a2c8828c1ee385e49097"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   name="Email"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="CakeResponse.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="1bb5d2186e0f9671cd0d7794213db4c9"
+   last-author="Dineshk"
+   kind="file"/>
+</wc-entries>

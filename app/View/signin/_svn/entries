@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2012-03-26T13:46:37.845717Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/app/View/signin"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="password_reset_confirmation.ctp"
+   text-time="2012-03-22T09:43:14.351572Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="4439a7c62c4c5452515802357e4d6cf0"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="14"
+   name="password_reset_sent.ctp"
+   text-time="2012-03-21T13:44:12.674711Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="96366ff7374ba4dcc79c280f7981a57a"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="14"
+   name="password_recovery.ctp"
+   text-time="2012-03-21T13:18:12.991107Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="f41f2218e152590fdea168db03263d0c"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="14"
+   name="password_reset.ctp"
+   text-time="2012-03-22T09:15:11.883347Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="c01ec7fee075fd5b425ccd09d20c1003"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="14"
+   name="index.ctp"
+   text-time="2012-03-22T10:02:02.629816Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="884ec6eb28c2e176f58f11f6c1160e2d"
+   last-author="Dineshk"
+   kind="file"/>
+</wc-entries>

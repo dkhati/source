@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/app/View/settings"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   committed-rev="14"
+   name="account.ctp"
+   text-time="2012-03-26T11:32:34.807234Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="f32c5016416d9c94297bebf7e659b0b8"
+   last-author="Dineshk"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="15"
+   name="profile.ctp"
+   text-time="2012-03-27T10:46:52.782886Z"
+   committed-date="2012-03-27T14:18:44.946275Z"
+   checksum="acd6d289ab127b8cf497b14114d3da68"
+   last-author="Dineshk"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="15"
+   name="resume.ctp"
+   text-time="2012-03-27T06:31:17.024100Z"
+   committed-date="2012-03-27T14:18:44.946275Z"
+   checksum="9f6dec12737d6f4d4e000185498fe011"
+   last-author="Dineshk"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="11"
+   name="password.ctp"
+   text-time="2012-03-19T08:16:28.773132Z"
+   committed-date="2012-03-20T08:12:03.863001Z"
+   checksum="7e3e4c56d79cc0b7a13791652a1ad40d"
+   last-author="Dineshk"
+   kind="file"
+   revision="11"/>
+<entry
+   committed-rev="14"
+   name="forgotpassword.ctp"
+   text-time="2012-03-26T09:09:30.410969Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="bc5de17d73f6d83b42e04538e4241436"
+   last-author="Dineshk"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="mobile.ctp"
+   text-time="2012-03-26T08:19:41.973529Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="c389001b8c1aae5aadab67902c26b69b"
+   last-author="Dineshk"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="notifications.ctp"
+   text-time="2012-03-26T08:19:51.099412Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="d226fa00459bfc34640c095725dd3259"
+   last-author="Dineshk"
+   kind="file"
+   revision="14"/>
+</wc-entries>

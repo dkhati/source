@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/lib/Cake/Test/test_app/Plugin/TestPlugin/Lib"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   name="Log"
+   kind="dir"/>
+<entry
+   name="Cache"
+   kind="dir"/>
+<entry
+   name="Error"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="TestPluginLibrary.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="516677ac924e85f2df9c53dbc3aee34a"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   name="Custom"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="TestPluginOtherLibrary.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="25ea34ccc99d0017042ae2283d68324e"
+   last-author="Dineshk"
+   kind="file"/>
+</wc-entries>

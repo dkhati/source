@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/app/webroot/js"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="jquery.corner.js"
+   text-time="2012-02-21T16:16:12.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="74d6211eec3d590201d686e54b2c6b43"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="jquerypopupbox.js"
+   text-time="2012-03-16T10:11:15.292442Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="87580ee02361ae4af20d011cb4a19548"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="14"
+   name="create_account.js"
+   text-time="2012-03-26T13:22:21.214392Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="36eae658488fa18f44b324a94a471731"
+   last-author="Dineshk"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="9"
+   name="jquery.placeholder.js"
+   text-time="2012-02-18T06:22:30.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="82fc8b605b06bed2c8e1fff6151b04a6"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="empty"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="jquery-1.7.1.min.js"
+   text-time="2012-03-15T07:13:11.414382Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="ddb84c1587287b2df08966081ef063bf"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="14"
+   name="userregister.js"
+   text-time="2012-03-20T13:52:14.967892Z"
+   committed-date="2012-03-26T13:46:37.845717Z"
+   checksum="692f54c6092ff430f19731658cdd57fc"
+   last-author="Dineshk"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="15"
+   name="jquery-1.5b1.js"
+   text-time="2012-03-27T13:23:40.138475Z"
+   committed-date="2012-03-27T14:18:44.946275Z"
+   checksum="452a0ea6930c83bee1f401f43b47e2af"
+   last-author="Dineshk"
+   kind="file"
+   revision="15"/>
+</wc-entries>

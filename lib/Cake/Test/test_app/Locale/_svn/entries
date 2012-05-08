@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/lib/Cake/Test/test_app/Locale"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   name="rule_1_mo"
+   kind="dir"/>
+<entry
+   name="rule_0_po"
+   kind="dir"/>
+<entry
+   name="rule_3_mo"
+   kind="dir"/>
+<entry
+   name="rule_2_po"
+   kind="dir"/>
+<entry
+   name="rule_5_mo"
+   kind="dir"/>
+<entry
+   name="rule_4_po"
+   kind="dir"/>
+<entry
+   name="rule_7_mo"
+   kind="dir"/>
+<entry
+   name="rule_6_po"
+   kind="dir"/>
+<entry
+   name="rule_9_mo"
+   kind="dir"/>
+<entry
+   name="rule_8_po"
+   kind="dir"/>
+<entry
+   name="rule_11_mo"
+   kind="dir"/>
+<entry
+   name="rule_13_mo"
+   kind="dir"/>
+<entry
+   name="rule_10_po"
+   kind="dir"/>
+<entry
+   name="rule_12_po"
+   kind="dir"/>
+<entry
+   name="rule_14_po"
+   kind="dir"/>
+<entry
+   name="po"
+   kind="dir"/>
+<entry
+   name="rule_0_mo"
+   kind="dir"/>
+<entry
+   name="ja_jp"
+   kind="dir"/>
+<entry
+   name="rule_2_mo"
+   kind="dir"/>
+<entry
+   name="rule_1_po"
+   kind="dir"/>
+<entry
+   name="rule_4_mo"
+   kind="dir"/>
+<entry
+   name="rule_3_po"
+   kind="dir"/>
+<entry
+   name="rule_6_mo"
+   kind="dir"/>
+<entry
+   name="rule_8_mo"
+   kind="dir"/>
+<entry
+   name="rule_5_po"
+   kind="dir"/>
+<entry
+   name="rule_7_po"
+   kind="dir"/>
+<entry
+   name="time_test"
+   kind="dir"/>
+<entry
+   name="rule_9_po"
+   kind="dir"/>
+<entry
+   name="cache_test_po"
+   kind="dir"/>
+<entry
+   name="rule_10_mo"
+   kind="dir"/>
+<entry
+   name="rule_12_mo"
+   kind="dir"/>
+<entry
+   name="rule_14_mo"
+   kind="dir"/>
+<entry
+   name="rule_11_po"
+   kind="dir"/>
+<entry
+   name="rule_13_po"
+   kind="dir"/>
+</wc-entries>

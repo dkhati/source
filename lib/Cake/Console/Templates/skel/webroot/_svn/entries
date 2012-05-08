@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/lib/Cake/Console/Templates/skel/webroot"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   name="files"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="test.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="b65c4def88bf9640692cf665ef9d3dbb"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name=".htaccess"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="619372d54e63d8c989d6ac6ee9bc6896"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   name="img"
+   kind="dir"/>
+<entry
+   name="js"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="index.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="f03104a7da63fa54d58c07b447bd2669"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="favicon.ico"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="66b3119d379aee26ba668fef49188dd3"
+   last-author="Dineshk"
+   kind="file"
+   prop-time="2012-03-16T11:22:22.891442Z"/>
+</wc-entries>

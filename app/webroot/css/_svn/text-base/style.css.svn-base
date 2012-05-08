@@ -1,0 +1,1733 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+}
+*, html {
+	font-family: Helvetica, Arial, sans-serif;
+}
+/* ====== Start Header ====== */
+.hdr_wrp {
+	width: 100%;
+	height: 36px;
+	min-width: 960px;
+	background: url(../images/hdr_bg.png) repeat-x 0% 0%;
+}
+.hdr {
+	width: 960px;
+	height: 36px;
+	margin: 0 auto;
+}
+.logo {
+	display: block;
+	float: left;
+	font-size: 22px;
+	color: #ffffff;
+	line-height: 36px;
+	height: 36px;
+}
+.set_btn{
+	display: block;
+	float: right;
+	margin: 5px 0 0 0;
+}
+/* ====== End Header ====== */
+/* ====== Start Content ====== */
+.cnt_wrp {
+	width: 100%;
+	min-width: 960px;
+	background: #f4f4f4 url(../images/cnt_wrp_bg.png) repeat-x 0% 0%;
+}
+.cnt {
+	width: 960px;
+	margin: 0 auto;
+}
+/* ====== End Content ====== */
+/*============================== 06.sign_up ====================*/
+/* ====== Start 06 Header ====== */
+#hdr6 {
+	width: 930px;
+}
+#hdr6 p {
+	height: 36px;
+	float: right;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 36px;
+}
+#hdr6 p a {
+	color: #ffca00;
+	margin: 0 0 0 10px;
+}
+/* ====== End 06 Header ====== */
+/* ====== Start 06 Content ====== */
+#cnt6_wrp {
+	height: 530px;
+	min-width: 960px;
+	overflow: hidden;
+	background: url(../images/cnt06_bg.png) no-repeat 50% 0%;
+}
+#cnt6 {
+	width: 930px;
+	height: 530px;
+}
+#cnt6 h2 {
+	font-size: 59px;
+	line-height: 70px;
+	color: #ffffff;
+	margin: 160px 0 0 0;
+	float: left;
+	text-shadow: 4px 3px 4px #9B9B9B;
+}
+#cnt6 h2 small {
+	font-size: 21px;
+	line-height: 25px;
+	display: block;
+	color:#333333;
+	text-shadow:4px 4px 6px #e4e4e4;
+}
+#join_form {
+	width: 400px;
+	float: right;
+	margin: 60px 0 0 0;
+}
+#join_form p {
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+	margin: 0 0 35px 0;
+	text-shadow:3px 3px 8px #666666;
+}
+#join_form input {
+	display: block;
+}
+#join_form input[type="text"], #join_form input[type="password"] {
+	height: 30px;
+	width: 353px;
+	font-size: 13px;
+	color: #666666;
+	padding: 0;
+	margin: 0;
+}
+#join_form span {
+	display: block;
+	width: 353px;
+	height: 30px;
+	padding: 0 27px 10px 20px;
+	margin: 0 0 8px 0;
+	color: #666666;
+	background: url(../images/join_form_bg.png) no-repeat;
+}
+#join_form input[placeholder] {
+	font-size: 13px !important;
+	color: #666666;
+}
+.placeholder {
+	color: #666666;
+	font-size: 13px !important;
+}
+::-webkit-input-placeholder {
+	color: #666666;
+	font-size: 13px !important;
+}
+:-moz-placeholder {
+	color: #666666;
+	font-size: 13px !important;
+}
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+     #hdr_srch{
+		 line-height:19px !important;
+}
+}
+#join_form input[type="checkbox"] {
+	float: left;
+	width: 14px;
+	height: 14px;
+	padding: 1px 0;
+	background: url(../images/checbx_bg.png) no-repeat;
+}
+#join_form label {
+	display: block;
+	float: left;
+	height:16px;
+	line-height:16px;
+	font-size: 12px;
+	color: #ffffff;
+	margin: -1px 0 0 10px;
+	text-shadow:3px 3px 8px #666666;
+}
+#join_form input[type="submit"] {
+	width: 399px;
+	height: 57px;
+	padding: 0 0 11px 0;
+	line-height: 19px;
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+	margin: 40px 0 0 0;
+	background: url(../images/join_form_btn.png) no-repeat;
+}
+#chbx{
+	height:16px;
+	width:400px;
+}
+#chbx b{
+	font-weight:400;
+	font-size:12px;
+	color:#ffca00;
+	display:block;
+	float:left;
+	height:16px;
+	line-height:16px;
+	margin:0 25px;
+}
+/* ====== End 06 Content ====== */
+/*============================== 07.sign_in ============*/
+/* ====== Start 07 Header ====== */
+#hdr7 p {
+	height: 36px;
+	float: right;
+	font-size: 12px;
+	color: white;
+	line-height: 36px;
+	color:#cccccc;
+}
+#hdr7 p a{
+	color:#cccccc;
+}
+/* ====== End 07 Header ====== */
+/* ====== Start 07 Content ====== */
+#cnt7_wrp{
+	overflow:hidden;
+	background:url(../images/cnt7_wrp_bg.png) repeat-x 0% 0%;
+}
+#cnt7{
+	width:716px;
+	height:414px;
+	margin:12px auto 0;
+	padding:42px 0 0 252px;
+	border:1px solid #cccccc;
+}
+#cnt7 h3{
+	font-size:27px;
+	color:#000000;
+	margin:0 0 34px 0;
+}
+#cnt7 input,
+#cnt7 label{
+	display:block;
+	width:100%;
+}
+#cnt7 label{
+	height:26px;
+	line-height:26px;
+	padding:0 0 0 4px;
+	font-size:15px;
+	color:#000000;
+	margin:22px 0 0 0;
+}
+#cnt7 input[type="text"], #cnt7 input[type="password"]{
+	width:380px;
+	height:35px;
+	float:left;
+	line-height:35px;
+	padding:0 12px;
+	background:url(../images/form07_bg.png) no-repeat;
+}
+#cnt7 p{
+	float:left;
+	height:35px;
+	width:250px;
+	font-size:12px;
+	line-height:35px;
+	padding:0 0 0 21px;
+}
+#cnt7 p a{
+	color:#003366 !important;
+}
+#cnt7 p a:hover{
+	text-decoration:underline;
+}
+#remember{
+	height:14px !important;
+	line-height:14px !important;
+	font-size:13px !important;
+	margin:15px 0 0 17px !important;
+}
+#cnt7 input[type="checkbox"]{
+	width:14px;
+	height:14px;
+	background:url(../images/checbx_bg.png) no-repeat;
+	float:left;
+	margin:0 16px 0 0;
+}
+#cnt7 input[type="submit"]{
+	width:119px;
+	height:31px;
+	font-size:19px;
+	color:#000000;
+	margin:55px 0 0 197px;
+	background:url(../images/sign_in_btn.png) no-repeat;
+}
+/* ====== End 07 Content ====== */
+/*============================== 15.settings_account ============*/
+/* ====== Start 15 Header ====== */
+#hdr15 {
+}
+#hdr15 p {
+	float: left;
+	height: 14px;
+	margin: 12px 0 0 15px;
+}
+#hdr15 p b {
+	display: block;
+	float: left;
+	font-weight: 400;
+	margin: 0 8px 0 0;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 13px;
+	/*text-shadow: 6px 4px 6px #484848;
+*/
+}
+#hdr15 p img {
+	float: left;
+	margin: 0 3px 0 0;
+	display: inline-block;
+}
+#hdr_srch {
+	display: block;
+	float: left;
+	width: 302px;
+	height: 25px;
+	margin: 6px 0 0 20px;
+	padding: 0 18px;
+	color: #2f2f2f;
+	font:16px/25px Helvetica, Arial, sans-serif;
+	background: url(../images/hdr_srch_bg.png) no-repeat;
+}
+/* ====== End 15 Header ====== */
+/* ====== Start 15 Content ====== */
+#cnt_setting_wrp {
+	overflow: hidden;
+}
+#cnt_setting {
+	width: 949px;
+	min-height: 1245px;
+	margin: 9px auto 0;
+	border: 1px solid #e2e2e2;
+	padding: 17px 9px 0 11px;
+	background: #ffffff;
+}
+/*Start User SideBar*/
+.user_sb {
+	float: left;
+	width: 191px;
+}
+.border {
+	border: 1px solid #e2e2e2;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+}
+.user {
+	width: 169px;
+	height: 43px;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+.foto {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.user p {
+	float: left;
+}
+.user p b {
+	display: block;
+	font-size: 15px;
+	color: #000000;
+	line-height: 18px;
+}
+.user p a {
+	display: block;
+	color: #999999;
+	font-size: 11px;
+	line-height: 13px;
+}
+.tool {
+	height: 129px;
+	margin: 15px 0 0 0;
+}
+.sb_list {
+	display: block;
+}
+.sb_list li {
+	display: block;
+	height: 23px;
+	padding: 8px 0 0 20px;
+	border-top: 1px solid #e2e2e2;
+}
+.sb_list li:first-child {
+	border-top: 1px solid transparent;
+}
+.sb_list li a {
+	color: #003399;
+	font-size: 15px;
+	line-height: 18px;
+}
+.settings {
+	margin: 70px 0 0 0;
+}
+.settings h3 {
+	color: #000000;
+	font-size: 15px;
+	line-height: 18px;
+	margin: 0 0 8px 19px;
+}
+.box {
+	border-color: transparent !important;
+	background: #f4f4f4;
+	height: 80px;
+	margin: 10px 0 0 0;
+}
+/*End User SideBar*/
+/*Start 15 Main*/
+.main {
+	width: 747px;
+	float: right;
+}
+.main_ttl {
+	width: 722px;
+	padding: 7px 0 0 25px;
+	height: 72px;
+	border-bottom: 1px solid #d9d9d9;
+}
+#acc_main .main_ttl {
+	height: 56px;
+}
+.main_ttl h3 {
+	color: #000000;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0 0 5px 0;
+	font-weight: 700;
+}
+.main_ttl h4 {
+	color: #666666 !important;
+	font-size: 14px;
+	line-height: 17px;
+}
+#basic_top {
+	width: 637px;
+	height: 175px;
+	padding: 25px 0 0 110px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.form_box label {
+	display: block;
+	float: left;
+	text-align: right;
+	height: 32px;
+	line-height: 32px;
+	font-size: 13px;
+	color: #000000;
+	width: 71px;
+	padding: 0 32px 0 0;
+	margin: 15px 0 0 0;
+}
+.form_box input[type="text"], .form_box input[type="password"] {
+	display: block;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	font-size: 16px;
+	width: 300px;
+	padding: 0 11px;
+	margin: 15px 0 0 0;
+	color: #000000;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+.form_box p {
+	width: 637px;
+	font-size: 13px;
+	line-height: 17px;
+	color: #929292;
+	clear: both;
+	padding: 5px 0 15px 107px;
+}
+#basic_main {
+	width: 637px;
+	padding: 25px 0 85px 110px;
+}
+#basic_main label {
+	height: 30px;
+	line-height: 30px;
+}
+#basic_main input[type="text"], #basic_main input[type="password"] {
+	height: 30px;
+	border: none;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	background: #929292;
+}
+#basic_main input[type="checkbox"] {
+	display: block;
+	float: left;
+	height: 14px;
+	width: 16px;
+	margin: 24px 0 0 0;
+	background: url(../images/https15_bg.png) no-repeat;
+}
+#basic_main span {
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: #333333;
+	height: 30px;
+	line-height: 30px;
+	margin: 15px 0 0 10px;
+}
+.save_btn {
+	display: block;
+	background: url(../images/basic_main_btn.png) no-repeat;
+	width: 146px;
+	height: 52px;
+	font-size: 15px;
+	color: #000000;
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+#save15_btn {
+	margin: 50px 0 0 170px;
+}
+#deactv_btn {
+	display: block;
+	width: 146px;
+	margin: 40px 0 0 170px;
+	text-align: center;
+	font-size: 13px;
+	color: #003399;
+}
+/*End 15 Main*/
+/* ====== End 15 Content ====== */
+/*============================ 16 Settings Password ============*/
+#passw_main_wrp h4 {
+	font-size: 15px;
+	color: #000000;
+}
+#passw_main label {
+	width: 146px;
+	font-size: 15px;
+	color: #4d4d4d;
+	padding: 0 38px 0 0;
+}
+#passw_main input[type="text"], #passw_main input[type="password"] {
+	width: 348px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+#passw_main a {
+	display: block;
+	clear: both;
+	font-size: 15px;
+	color: #003399;
+	line-height: 18px;
+	margin: 13px 0 20px 189px;
+}
+#np16 {
+	margin-bottom: 11px;
+}
+#save16_btn {
+	margin: 40px auto 26px;
+}
+/*============================ 17 Settings Profile ============*/
+#foto_upload {
+	border-bottom: 1px solid #d9d9d9;
+	padding: 9px 0 20px 110px;
+	width: 637px;
+	overflow: hidden;
+}
+#foto_box {
+	float: left;
+	width: 89px;
+	height: 84px;
+	border: 1px solid transparent;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	background: #4c4c4c;
+	margin: 0 27px 0 0;
+}
+#upload {
+	margin: 11px 0 0 0;
+	float: left;
+}
+#chs_file {
+	display: block;
+	float: left;
+	width: 86px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	color: #666666;
+	background: url(../images/chs_file.png) no-repeat;
+}
+#upload p {
+	font-size: 15px;
+	color: #4c4c4c;
+	height: 18px;
+	line-height: 18px;
+	float: left;
+	width: 200px;
+	clear: none;
+	padding: 0 0 0 14px;
+}
+#upload span {
+	display: block;
+	font-size: 13px;
+	color: #666666;
+	line-height: 18px;
+	margin: 7px 0 0 3px;
+}
+#profile_main {
+	width: 637px;
+	padding: 25px 0 0 110px;
+}
+#profile_main textarea, .resume_main textarea {
+	display: block;
+	float: left;
+	font-size: 16px;
+	width: 300px;
+	min-width: 300px;
+	max-width: 300px;
+	height: 80px;
+	min-height: 80px;
+	max-height: 80px;
+	padding: 5px 11px;
+	margin: 15px 0 0 0;
+	color: black;
+	border: 1px solid #CCC;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+#save17_btn {
+	margin: 30px 0 50px 170px;
+}
+/*============================ 18 Settings Resume ============*/
+.resume_main {
+	width: 692px;
+	padding: 25px 0 0 55px;
+}
+.form_box h5 {
+	font-size: 13px;
+	color: #000000;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+}
+.resume_main label {
+	width: 170px;
+	padding: 0 22px 0 0;
+	margin: 0 0 30px 0;
+}
+.resume_main  input[type="text"], .resume_main  input[type="password"] {
+	margin: 0 0 30px 0;
+}
+.resume_main2 {
+	border-top: 1px solid #d9d9d9;
+}
+.resume_main2 textarea {
+	margin: 0 0 30px 0;
+	width: 428px;
+	min-width: 428px;
+	max-width: 428px;
+	height: 194px;
+	min-height: 194px;
+	max-height: 194px;
+}
+#save18_btn {
+	margin: 5px 0 30px 245px;
+}
+/*======================== 22 Settings Notications ============*/
+#not_main_wrp .main_ttl h4 a {
+	color: #003399;
+}
+.not_main {
+	width: 692px;
+	padding: 20px 0 11px 55px;
+	overflow: hidden;
+	border-bottom: 1px solid #D9D9D9;
+}
+.not_main h5 {
+	margin-bottom: 20px !important;
+}
+.not_main h6 {
+	color: #000000;
+	font-size: 14px;
+	margin: 0 45px 0 0;
+	float: left;
+	text-align: right;
+	width: 130px;
+}
+.qaz {
+	float: left
+}
+.qaz input[type="checkbox"] {
+	display: block;
+	float: left;
+	height: 14px;
+	width: 16px;
+	margin: 0 20px 16px 0;
+	background: url(../images/https15_bg.png) no-repeat;
+}
+.qaz span {
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: #000000;
+	height: 14px;
+	margin: 0 0 16px 0;
+	line-height: 13px;
+}
+.qaz span a {
+	color: #003399;
+}
+/*============================ 23 Settings Mobile ============*/
+.mobile {
+	margin: 0 0 60px 0;
+}
+.mobile input[type="checkbox"] {
+	display: block;
+	float: left;
+	height: 14px;
+	width: 16px;
+	margin: 16px 0 0 184px;
+	background: url(../images/https15_bg.png) no-repeat;
+}
+.mobile  span {
+	display: block;
+	float: left;
+	height: 14px;
+	line-height: 14px;
+	margin: 15px 0 0 10px;
+	font-size: 13px;
+	color: #333333;
+}
+.not_main_last {
+	border: none;
+}
+/*============================ 08 Profile Resumes ============*/
+#prfl_rsum_wrp {
+	overflow: hidden;
+	background-color: #ffffff;
+}
+#prfl_rsum {
+	width: 970px;
+	margin: 13px auto 0;
+	background: white;
+}
+#prfl_rsum_top {
+	width: 960px;
+	padding: 0 5px;
+	overflow: hidden;
+}
+#main_contact {
+	float: left;
+	height: 335px;
+	overflow: hidden;
+}
+#foto {
+	float: left;
+	width: 189px;
+}
+#foto_link {
+	display: block;
+	width: 189px;
+	height: 286px;
+	background:url(../images/foto_big_bg.png) no-repeat;
+}
+#soc_link {
+	height: 16px;
+	margin: 12px 0 0 39px;
+}
+#soc_link a {
+	height: 16px;
+	margin: 0 9px 0 0;
+	display: block;
+	float: left;
+}
+#user_info {
+	width: 375px;
+	float: left;
+	margin: 0 0 0 18px;
+}
+#user_info h3 {
+	font-size: 31px;
+	color: #000000;
+	line-height: 38px;
+}
+#user_info h3 a {
+	display: block;
+	float: right;
+	width: 23px;
+	height: 23px;
+	margin: 0 85px 0 0;
+}
+#user_info p {
+	font-size: 15px;
+	line-height: 18px;
+	color: #333333;
+}
+#user {
+	margin: 12px 0 0 0;
+	padding: 3px 0 0 0;
+	border-top: 1px solid #f8f8f8;
+}
+#user div {
+	width: 330px;
+	min-height: 20px;
+	margin: 0 0 5px 0;
+	overflow: hidden;
+}
+#user div b {
+	font-weight: 400;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	display: block;
+	float: left;
+	width: 75px;
+}
+#user div span {
+	display: block;
+	float: left;
+	width: 255px;
+	overflow: hidden;
+}
+#user div a {
+	font-size: 13px;
+	color: #12639a;
+}
+#consulting a {
+	display: block;
+	float: left;
+	margin: 0 6px 5px 0;
+	width: 125px;
+	height: 21px;
+	text-align: center;
+	line-height: 21px;
+	font-size: 14px !important;
+	color: #ffffff !important;
+	background: url(../images/consulting_link_bg.png) no-repeat;
+}
+#consulting span {
+	margin: 0 0 0 -7px;
+	width: 262px !important;
+}
+#exprts b {
+	margin: 0 6px 0 0;
+}
+#exprts a {
+	line-height: 16px;
+	display: block;
+	float: left;
+}
+#exprts span {
+	width: 245px !important;
+}
+#social_nav {
+	float: right;
+	width: 377px;
+}
+#soc_top {
+	width: 380px;
+	overflow: hidden;
+}
+#soc_top a {
+	display: block;
+	float: left;
+	width: 93px;
+	height: 46px;
+	padding: 12px 0 0 0;
+	margin: 0 0 0 1px;
+	background: #f8f8f8;
+	text-align: center;
+	font-size: 13px;
+	color: #000000;
+}
+#soc_top a big {
+	display: block;
+	font-size: 24px;
+	color: #1e6ccc;
+	line-height: 21px;
+}
+#now_here {
+	background: #000000 !important;
+	color: #ffffff !important;
+}
+#now_here big {
+	color: #ffffff !important;
+}
+#soc_main {
+	width: 377px;
+	margin: 1px 0 0 0;
+	background: #f8f8f8;
+}
+#soc_main img {
+	display: block;
+	width: 357px;
+	height: 120px;
+	margin: 5px auto 0;
+}
+#soc_main span {
+	display: block;
+	height: 20px;
+	margin: 4px 0 0 12px;
+}
+#soc_main span a {
+	display: block;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #1e6dcc;
+	margin: 0 15px 0 0;
+}
+#soc_list {
+	width: 190px;
+	margin: 15px 0 0 0;
+	padding: 7px 0 0 0;
+	border-top: 1px solid #f4f4f4;
+}
+#soc_list input {
+	height: 13px;
+	width: 13px;
+	display: block;
+	float: left;
+	margin: 2px 8px 2px 0;
+}
+#soc_list label {
+	height: 13px;
+	display: block;
+	float: left;
+	line-height: 17px;
+	font-size: 13px;
+	color: #0066a1;
+}
+#nav_bar_wrp {
+	height: 38px;
+	width: 960px;
+	background: #f4f4f4;
+	margin: 0 0 10px 0;
+}
+#nav_bar {
+	display: block;
+	height: 38px;
+	width: 960px;
+}
+#nav_bar li {
+	display: block;
+	float: left;
+	height: 38px;
+}
+#nav_bar li a {
+	display: block;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #1b6daf;
+	font-size: 15px;
+	width: 99px;
+	border-right: 1px solid #ffffff;
+}
+.user_history {
+	width: 480px;
+	margin: 0 0 18px 35px;
+}
+.user_history h4 {
+	font-size: 16px;
+	color: #666666;
+	height: 26px;
+	line-height: 26px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.user_history h5 {
+	font-size: 16px;
+	color: #000000;
+	margin: 14px 0 2px 6px;
+}
+.user_history p {
+	color: #333333;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0 0 0 9px;
+	overflow: hidden;
+}
+.user_history p a {
+	color: #226aa7;
+}
+.user_history p big {
+	font-size: 16px;
+	line-height: 19px;
+	display: block;
+	font-weight: 700;
+	margin: 5px 0 0 0;
+}
+.user_history p i {
+	font-style: normal;
+	color: #666666;
+	display: block;
+}
+.user_history p small {
+	display: block;
+}
+.user_history p b {
+	font-weight: 400;
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
+/*========================== 13 Profile Reccommend ============*/
+#message_form {
+	margin: 20px 0 0 25px;
+	width: 520px;
+}
+#message_form h5 {
+	font-size: 15px;
+	color: #000000;
+	margin: 0 0 15px 0;
+	float: left;
+}
+#msg_form {
+	display: block;
+	width: 500px;
+	position: relative;
+}
+#msg_form label {
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: #000000;
+	min-width: 44px;
+	height: 35px;
+}
+#msg_form input[type="text"], #msg_form input[type="password"] {
+	display: block;
+	float: left;
+	width: 255px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #999999;
+	border: 1px solid #cccccc;
+	padding: 0 7px;
+	margin: 0 0 7px 0;
+}
+#msg_form span {
+	display: block;
+	overflow: hidden;
+	margin: 0 0 13px 0;
+}
+#msg_form textarea {
+	display: block;
+	border: 1px solid #cccccc;
+	width: 370px;
+	min-width: 370px;
+	max-width: 370px;
+	height: 112px;
+	min-height: 112px;
+	max-height: 112px;
+	margin: 0 0 0 8px;
+	float: left;
+	padding: 5px 10px;
+}
+#msg_form input[type="submit"] {
+	display: block;
+	width: 72px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+	float: right;
+	margin: 7px 45px 0 0;
+	background: url(../images/send_btn.png) no-repeat;
+}
+#info {
+	position: absolute;
+	width: 170px;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+}
+#info img {
+	display: block;
+	width: 69px;
+	height: 74px;
+}
+#info p {
+	font-size: 11px;
+	color: #000000;
+	font-style: italic;
+	margin: 10px 0 0 0;
+}
+/*========================== 08 Consultant New User ============*/
+.foto_link_empty{
+	color:#196aab;
+	font-size:11px;
+	padding:92px 0 0 65px;
+	height:194px !important;
+	width:124px !important;
+}
+.user_info8 h3{
+	line-height: 26px !important;
+	margin: 0 0 5px 0;
+}
+.summary{
+	display:block;
+	width:340px;
+	min-width:340px;
+	max-width:340px;
+	height:38px;
+	min-height:38px;
+	max-height:38px;
+	padding:7px 6px 0 9px;
+	font-size:12px;
+	color:#000000;
+	line-height:normal;
+	border:1px solid #e8e8e8;
+}
+.add_link{
+	font-size:11px;
+	color:#196aab;
+}
+.add_link .placeholder{
+	color:#196aab;
+	font-size: 11px !important;
+}
+.add_link ::-webkit-input-placeholder {
+	color:#196aab;
+	font-size: 11px !important;
+}
+.add_link :-moz-placeholder {
+	color:#196aab;
+	font-size: 11px !important;
+}
+.add_link :focus::-webkit-input-placeholder {
+	color: transparent !important;
+}
+.user_08cnu{
+	border: none !important;
+	margin: 5px 0 0 0 !important;
+}
+.user_08cnu div{
+	width:375px !important;
+}
+#off_site input{
+	height:21px;
+	width:255px;
+	display:block;
+	float:left;
+	font-size:13px;
+	border:1px solid #e8e8e8;
+	background:#fdfdfd;
+	line-height:21px;
+	padding:0 12px;
+	margin:0 0 5px 0;
+}
+#expertise textarea{
+	width: 255px;
+	min-width: 255px;
+	max-width: 255px;
+	height:90px;
+	min-height:90px;
+	max-height:90px;
+	background:#fdfdfd;
+	color:#000000;
+	font-size: 13px;
+	display: block;
+	float: left;
+	padding: 5px 12px;
+	margin: 0 0 5px 0;
+}
+#consult8{
+	margin:-3px 0 5px 0 !important;
+}
+#consult8 span{
+	width: 280px !important;
+}
+#consult8 span a{
+	display:block;
+	float:left;
+	background:#f0f0f0;
+	border:1px solid #ececec;
+	height:30px;
+	width:130px;
+	text-align:center;
+	line-height:30px;
+	font-size:14px;
+	color:#0066a1;
+	margin:0 2px 3px 0;
+}
+.soc_top8 a{
+	border:1px solid #ebebeb;
+	margin:0 !important;
+	padding:30px 0 0 0 !important;
+	height:30px !important;
+}
+.soc_main8{
+	border: 1px solid #EBEBEB;
+	width: 378px !important;
+	margin: 0 !important;
+	border-top: none;
+	height:39px;
+	overflow: hidden;
+}
+.soc_main8 span{
+	height:20px !important;
+	margin:0 !important;
+	padding:19px 0 0 0;
+}
+.soc_main8 span a{
+	margin:0 10px 0 26px !important;
+}
+.soc_list8{
+	border:none !important;
+}
+.edit_link{
+	color:#196aab !important;
+	font-size:12px;
+	float: right;
+	padding: 0 10px 0 0;
+	font-weight:400 !important;
+}
+.add_link2{
+	padding: 0 22px 0 0 !important;
+}
+.user_history8 h5{
+	margin-left:9px !important;
+}
+.user_history8 span{
+	display:block;
+	height:24px;
+	width:471px;
+	margin-left:10px !important;
+}
+.user_history8 span .add_link2{
+	height:24px;
+	line-height:24px;
+}
+.user_history8 small{
+	display:block;
+	height:24px;
+	line-height:24px;
+	float:left;
+}
+.odin{
+	font-size: 16px;
+	color: black;
+	margin: 14px 0 2px 0;
+}
+.dva{
+	color: #226AA7;
+	font-weight:700;
+}
+.tri{
+	font-size:12px;
+	color: #666666;
+}
+.chetri{
+	font-size:12px;
+	color: #333333;
+}
+/*========================== front_page ============*/
+#fpc_wrp{
+	background:none;
+}
+.sub_header{
+	width:970px;
+	height:24px;
+	margin:22px auto 0;
+}
+.sub_header h5{
+	font-size:20px;
+	color:#000000;
+	line-height:24px;
+	float:left;
+}
+.sub_header h5 b{
+	color:#666666;
+	font-weight:400;
+}
+.content_new{
+	width: 968px;
+	margin: 0 auto;
+	border: 1px solid #cccccc;
+}
+#fpc{
+	padding:84px 0 0 0;
+	height: 244px;
+}
+#fpc h3{
+	font-size:59px;
+	color:#000000;
+	float:left;
+	text-shadow:5px 5px 5px #e8e8e8;
+	margin:18px 0 0 88px;
+}
+#fpc h3 small{
+	display:block;
+	font-size:21px;
+	color:#cccccc;
+	line-height:26px;
+	text-shadow:none;
+	margin:-5px 0 0 0;
+}
+#fpc_form{
+	width:401px;
+	float:right;
+	margin:0 72px 0 0;
+}
+#fpc_form input{
+	display:block;
+	float:left;
+	margin-bottom:15px;
+}
+#fpc_form .placeholder{
+	color:#999999;
+	font-size: 13px !important;
+}
+#fpc_form ::-webkit-input-placeholder {
+	color:#999999;
+	font-size: 13px !important;
+}
+#fpc_form :-moz-placeholder {
+	color:#999999;
+	font-size: 13px !important;
+}
+#fpc_form :focus::-webkit-input-placeholder {
+	color: transparent !important;
+}
+#fpc_fn{
+	height:32px;
+	width:363px;
+	color:#999999;
+	font-size:13px;
+	padding:0 10px 0 22px;
+	margin-left:3px;
+	background:url(../images/fpc_fn_bg.png) no-repeat;
+}
+#fpc_psw{
+	padding:0 10px 0 22px;
+	height:32px;
+	color:#999999;
+	width:273px;
+	margin-left:3px;
+	background:url(../images/fpc_psw_bg.png) no-repeat;
+}
+.sign_in_btn{
+	display:block;
+	float:left;
+	width:87px;
+	height:34px;
+	margin-left:5px;
+	padding:0 0 3px 0;
+	text-align:center;
+	line-height:34px;
+	color:#666666;
+	font-size:15px;
+	background:url(../images/fpc_sig_in_btn_bg.png) no-repeat;
+}
+#fpc_btn2{
+	display:block;
+	float:left;
+	height:49px;
+	width:401px;
+	font-size:16px;
+	line-height:49px;
+	color:#666666;
+	padding:0 0 10px 0;
+	text-align:center;
+	background: url(../images/fpc_cracc_btn_bg.png) no-repeat;
+}
+/*========================== Sign up page (supc) ============*/
+.sub_header p{
+	height:24px;
+	float:right;
+	font-size:13px;
+	color:#000000;
+	line-height:24px;
+}
+.sub_header p a{
+	line-height:24px;
+	color:#0000ff;
+}
+#supc{
+	min-height:327px;
+}
+.supc_ttl{
+	height:58px;
+	width:152px;
+	text-align:center;
+	margin:28px auto 0;
+	line-height:58px;
+	font-size:24px;
+	color:#000000;
+	border-bottom:1px solid #cccccc;
+}	
+#supc_txt1{
+	font-size:13px;
+	color:#666666;
+	text-align:center;
+	margin:20px 0 0 0;
+}	
+#supc_txt2{
+	font-size:12px;
+	color:#666666;
+	text-align:center;
+	margin:25px 0 0 0;
+}	
+#supc_txt2 a{
+	color:#0000ff;
+}
+#soc_btn{
+	width:605px;
+	height:35px;
+	margin:25px auto 0;
+}
+#soc_btn a{
+	display:block;
+	float:left;
+	margin:0 18px 0 0;
+}
+/*========================== Sign In page (sinc) ============*/
+#sinc{
+	padding:0 0 75px 0;
+}
+#sinc_sign_in_btn{
+	margin:0 32px !important;
+}
+#sinc_ttl{
+	height: 58px;
+	width: 152px;
+	text-align: center;
+	margin: 28px auto 0;
+	line-height: 58px;
+	font-size: 24px;
+	color: black;
+}
+#sinc_btn{
+	margin-top:0 !important;
+}
+#sinc_form{
+	width:580px;
+	padding-left:280px;
+/*	margin:0 auto; */
+}
+#sinc_form input{
+	padding:0 14px;
+	width:376px;
+	height:35px;
+	color:#333333;
+	font-size:13px;
+	margin-bottom:15px;
+	background:url(../images/form07_bg.png) no-repeat;
+}
+#sinc_form .placeholder{
+	color:#333333;
+	font-size: 13px !important;
+}
+#sinc_form ::-webkit-input-placeholder {
+	color:#333333;
+	font-size: 13px !important;
+}
+#sinc_form :-moz-placeholder {
+	color:#333333;
+	font-size: 13px !important;
+}
+#sinc_form :focus::-webkit-input-placeholder {
+	color: transparent !important;
+}
+/*================ Create my account page (cmac) ==========*/
+#cmac{
+	width:797px;
+	padding:35px 0 70px 173px;
+}
+#cmac_ttl{
+	font-size:24px;
+	color:#000000;
+	margin:0 0 30px 0;
+}
+#cmac_form{
+	overflow: hidden;
+}
+#cmac_form input[type="text"], #cmac_form input[type="password"]{
+	display:block;
+	float:left;
+	padding:0 14px;
+	width:376px;
+	height:35px;
+	margin:0 0 15px 0;
+	color:#333333;
+	font-size:13px;
+	margin-bottom:15px;
+	background:url(../images/form07_bg.png) no-repeat;
+}
+#cmac_form .placeholder{
+	color:#333333;
+	font-size: 13px !important;
+}
+#cmac_form ::-webkit-input-placeholder {
+	color:#333333;
+	font-size: 13px !important;
+}
+#cmac_form :-moz-placeholder {
+	color:#333333;
+	font-size: 13px !important;
+}
+#cmac_form :focus::-webkit-input-placeholder {
+	color: transparent !important;
+}
+#cmac_form p{
+	display:block;
+	float: left;
+	margin:0 0 0 25px;
+	height:35px;
+	line-height:35px;
+	font-size:13px;
+	color:#666666;
+}
+#keep_me{
+	display:block;
+	height:14px;
+	line-height:14px;
+	font-size:13px;
+	color:#000000;
+	width:280px;
+}
+#keep_me input{
+	display:inline-block;
+	margin:-1px 15px 0 0;
+}
+#cmac_btn_bg{
+	display:block;
+	text-align:center;
+	width:404px;
+	height:33px;
+	font-size:16px;
+	color:#333333;
+	line-height:33px;
+	margin:19px 0 0 0;
+	background:url(../images/cmac_btn_bg.png) no-repeat;
+}
+#cmac_note_txt{
+	font-size:11px;
+	color:#666666;
+	line-height:13px;
+	width:404px;
+	margin:12px 0 0 0;
+}
+/*================ Select account type page (satc) ==========*/
+#satc{
+	padding:34px 0 55px 0;
+}
+#satc h3{
+	color:#000000;
+	font-size:17px;
+	text-align:center;
+	font-weight:lighter;
+	margin:0 0 40px 0;
+}
+#satc h4{
+	color:#000000;
+	font-size:17px;
+	text-align:center;
+	font-weight:lighter;
+	margin:28px 0 0 0;
+}
+.satc_select{
+	display:block;
+	float:left;
+	width:117px;
+	height:145px;
+	font-size:14px;
+	padding-left:59px;
+	margin-left:81px;
+	line-height: 18px;
+	font-weight:lighter;
+	color:#000000;
+	background:url(../images/satc_bg.png) no-repeat;
+}
+.type1{
+	margin-left:140px;
+}
+.type1,
+.type2{
+	padding-top:57px;
+	height:88px !important;
+}
+.type3{
+	padding-top:47px;
+	height:98px !important;
+}
+/*================ Password Recovery page (prc) ==========*/
+#prc{
+	width:742px;
+	padding:23px 0 75px 228px;
+}
+#prc_top{
+	height:79px;
+	padding:0 0 0 87px;
+	background:url(../images/lock_ico.jpg) no-repeat 0% 0%;
+}
+#prc_top h3{
+	font-size:20px;
+	font-weight:700;
+	color:#000000;
+}
+#prc_top p{
+	font-size:15px;
+	color:#000000;
+	line-height:26px;
+}
+#prc_form{
+	width:404px;
+	margin:20px 0 0 0;
+}
+#prc_form input{
+	display:block;
+	padding:0 14px;
+	width:376px;
+	height:35px;
+	color:#666666;
+	font-size:13px;
+	background:url(../images/form07_bg.png) no-repeat;
+}
+#prc_form span{
+	display:block;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	font-weight:700;
+	color:#000000;
+	margin:0 0 0 12px;
+}
+#prc_form .placeholder{
+	color:#666666;
+	font-size: 13px !important;
+}
+#prc_form ::-webkit-input-placeholder {
+	color:#666666;
+	font-size: 13px !important;
+}
+#prc_form :-moz-placeholder {
+	color:#666666;
+	font-size: 13px !important;
+}
+#prc_form :focus::-webkit-input-placeholder {
+	color: transparent !important;
+}
+#next_btn{
+	display: block;
+	height:33px;
+	width:87px;
+	line-height:33px;
+	font-size:15px;
+	color:#333333;
+	text-align:center;
+	padding:0 0 4px 0;
+	margin:15px 0 0 0;
+	background:url(../images/next_btn.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+/* my stuff start */
+.colorred{ color:red !important;}
+.error-message{margin-left:-10px !important; color:red !important;}
+.textcenter{ text-align:center}
+#flashMessage{
+	overflow: hidden;
+	background: url(../images/cnt06_bg.png) no-repeat 50% 0%;
+}
+
+#signOut{ float:right; font-size:15px; font-weight:bold;}
+
+.hide{ display:none !important;}
+
+.input label{display:none}
+.signupErors{padding:0 0 10px 10px}
+label.userremember{margin:0px !important;height:0px !important;line-height:inherit !important;font-size:14px !important;}
+p.forgetPassword{
+	float:right;
+	height:35px;
+	width:150px;
+	font-size:12px;
+	line-height:35px;
+	padding:0 0 0 21px;
+}
+p.forgetPassword a{
+	color:#003366 !important;
+}
+p.forgetPassword a:hover{
+	text-decoration:underline;
+}
+.widthauto{
+	width:auto !important;
+}
+.border0{
+	border:none !important;
+}
+.width404{ width:404px !important;}
+.height16{ height:16px !important; line-height:16px !important;}
+.colorblue{ color:#0084B4}
+.valigntop{vertical-align:top}
+/* my stuff end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

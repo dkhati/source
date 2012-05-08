@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/app/Config"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="email.php.default"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="69473d78d91d42c6b3cabb6c4cc37366"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   name="Schema"
+   kind="dir"/>
+<entry
+   committed-rev="9"
+   name="acl.ini.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="bc9e6573124bcf25f708dd11f82467ef"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="bootstrap.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="54d68d920e147ee376ecca011b9ddfd3"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="acl.php"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="92644a46d3179a6cd2d64fdc8813c7e8"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="15"
+   name="routes.php"
+   text-time="2012-03-27T06:47:17.612985Z"
+   committed-date="2012-03-27T14:18:44.946275Z"
+   checksum="64665c0aadc9ca997aafced11873c34d"
+   last-author="Dineshk"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="9"
+   name="database.php"
+   text-time="2012-03-15T06:18:36.831579Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="3b6a1f45e6b93309ada6c6621bc39dae"
+   last-author="Dineshk"
+   kind="file"/>
+<entry
+   committed-rev="15"
+   name="FileUploadSettings.php"
+   text-time="2012-03-19T12:52:00.397132Z"
+   committed-date="2012-03-27T14:18:44.946275Z"
+   checksum="dee178a416660e5721b5611c647d5c0c"
+   last-author="Dineshk"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="11"
+   name="core.php"
+   text-time="2012-03-19T09:46:24.016132Z"
+   committed-date="2012-03-20T08:12:03.863001Z"
+   checksum="877e09e472d78b80febdc746687436eb"
+   last-author="Dineshk"
+   kind="file"
+   revision="11"/>
+</wc-entries>

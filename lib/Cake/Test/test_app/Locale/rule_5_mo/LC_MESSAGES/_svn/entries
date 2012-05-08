@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2012-03-16T11:38:00.082442Z"
+   url="http://ganga.impingesolutions.com:81/svn/Consultr/trunk/Source/lib/Cake/Test/test_app/Locale/rule_5_mo/LC_MESSAGES"
+   last-author="Dineshk"
+   kind="dir"
+   repos="http://ganga.impingesolutions.com:81/svn/Consultr"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="core.mo"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="ab2c9408009f922754f048fc4f1a9e0d"
+   last-author="Dineshk"
+   kind="file"
+   prop-time="2012-03-16T11:26:25.445442Z"/>
+<entry
+   committed-rev="9"
+   name="default.mo"
+   text-time="2012-03-04T10:36:50.000000Z"
+   committed-date="2012-03-16T11:38:00.082442Z"
+   checksum="6be039e56e459cc595f4c18fc3910035"
+   last-author="Dineshk"
+   kind="file"
+   prop-time="2012-03-16T11:26:25.846442Z"/>
+</wc-entries>
